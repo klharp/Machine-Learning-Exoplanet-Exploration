@@ -49,7 +49,7 @@ When increasing the neighbors to something over 20, the model does not change mu
 
 ![KNN model](Images/knn.jpg)
 
- In hypertuning the model, observing k13 at 82%, set up the hyperparametric tuning to go from 3 to 23. The accuracy still hovers around 82%
+ In tuning the model, observing k13 at 82%, set up the hyperparametric tuning to go from 3 to 23. The accuracy still hovers around 82%
 
  ``{'n_neighbors': 21}``
 
@@ -59,6 +59,18 @@ When increasing the neighbors to something over 20, the model does not change mu
 
 
 ### Support Vector Machine (SVM) Model
-Add text.
+With the SVM model the accuracy was 84%, with the Candidate having the highest precision.
+
+``Test Acc: 0.842``
+
+![SVM model](Images/svm_table.png)
+
+ In tuning the model, observing 84% accuracy, set up the parametric gride to go from 1 to 40. The accuracy increases to 88%.
+
+ ``{'C': 40, 'gamma': 0.0001}``
+
+``0.8813619295730575``
+
+
 - - -
 
