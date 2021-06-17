@@ -2,15 +2,22 @@
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
 
-## Background
-
+## Project Overview
 Created machine learning models capable of classifying candidate exoplanets from the raw dataset provided from the NASA Kepler space telescope ([Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results)).
 
-Ths assignment demonstrates:
+Ths project demonstrates:
 
 1. Preprocessing of raw data
 2. Tuning the models
 3. Comparing multiple models
+
+Languages and libraries used:
+
+* Pandas
+* Scikit-learn
+* Seaborn
+* Matplotlib
+
 
 - - -
 
